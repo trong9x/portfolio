@@ -24,7 +24,6 @@ padding:120px 20px;
 .avatar{
 width:150px;
 height:150px;
-border-radius:50%;
 border:4px solid #38bdf8;
 margin-bottom:20px;
 }
@@ -117,3 +116,4 @@ height:110px;
 }
 
 }
+
