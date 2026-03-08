@@ -54,6 +54,7 @@ font-weight:bold;
 
 .container{
 width:900px;
+width:90%;
 margin:auto;
 }
 
@@ -71,7 +72,7 @@ transform:translateY(0);
 
 .tech-grid{
 display:grid;
-grid-template-columns:repeat(4,1fr);
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
 gap:20px;
 margin-top:30px;
 }
@@ -112,6 +113,22 @@ padding:40px;
 color:#9ca3af;
 }
 
+@media (max-width:768px){
+
+header{
+padding:80px 20px;
+}
+
+h1{
+font-size:32px;
+}
+
+.avatar{
+width:110px;
+height:110px;
+}
+
+}
 </style>
 </head>
 
@@ -121,7 +138,7 @@ color:#9ca3af;
 
 <header>
 
-<img src="/img/cv.jpg" class="avatar">
+<img src="img/cv.jpg" class="avatar">
 
 <h1>Nguyễn Minh Trọng</h1>
 <h2>阮明重</h2>
